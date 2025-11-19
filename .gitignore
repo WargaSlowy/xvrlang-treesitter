@@ -137,3 +137,10 @@ dist
 # Vite logs files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+# tree-sitter project git ignore
+package-lock.json
+*.pc.in
+*.pyi
+*.typed
+bindings
