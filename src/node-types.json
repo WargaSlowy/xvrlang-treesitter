@@ -806,6 +806,10 @@
     "named": false
   },
   {
+    "type": "assert",
+    "named": false
+  },
+  {
     "type": "astype",
     "named": false
   },
@@ -828,11 +832,11 @@
   },
   {
     "type": "float",
-    "named": false
+    "named": true
   },
   {
     "type": "float",
-    "named": true
+    "named": false
   },
   {
     "type": "for",
@@ -872,14 +876,18 @@
   },
   {
     "type": "string",
-    "named": false
-  },
-  {
-    "type": "string",
     "named": true
   },
   {
+    "type": "string",
+    "named": false
+  },
+  {
     "type": "true",
+    "named": false
+  },
+  {
+    "type": "type",
     "named": false
   },
   {

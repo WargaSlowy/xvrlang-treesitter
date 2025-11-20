@@ -21,7 +21,7 @@ module.exports = grammar({
       $.return_statement,
     ),
 
-    type: $ => choice('bool', 'int', 'float', 'string', 'opaque', 'any'),
+    type: $ => choice('bool', 'int', 'float', 'string', 'opaque', 'any', 'type'),
 
     integer: $ => /\d+/,
     float: $ => /\d+\.\d+([eE][+-]?\d+)?/,
@@ -55,7 +55,6 @@ module.exports = grammar({
 
     block: $ => seq('{', repeat($._statement), '}'),
 
-    // ✅ Struktur ekspresi yang benar
     _expression: $ => choice(
       $.binary_expression,
       $.unary_expression,

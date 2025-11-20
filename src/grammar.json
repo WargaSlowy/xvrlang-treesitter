@@ -39,6 +39,10 @@
         {
           "type": "SYMBOL",
           "name": "return_statement"
+        },
+        {
+          "type": "STRING",
+          "value": "assert"
         }
       ]
     },
@@ -68,6 +72,10 @@
         {
           "type": "STRING",
           "value": "any"
+        },
+        {
+          "type": "STRING",
+          "value": "type"
         }
       ]
     },

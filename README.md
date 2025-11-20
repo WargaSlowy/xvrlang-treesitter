@@ -29,3 +29,6 @@ install on neovim
 ```
 :TSInstall xvrlang
 ```
+
+> [!NOTE]
+> Don't forget to adding `highlight.scm` into `.config/nvim/queries/highlights.scm`, if not found, you can add it
