@@ -30,5 +30,9 @@
 (identifier) @variable
 (proc_declaration (identifier) @function)
 (declaration (identifier) @variable)
-(call_expression (identifier) @function.call)
+
+(call_expression
+  function: (identifier) @function.builtin
+  (#eq? @function.builtin "print"))
+
 (comment) @comment
